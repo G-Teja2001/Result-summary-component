@@ -28,7 +28,8 @@ body{
    min-height:100vh;
    display:flex;
    align-items:center;
-   justify-content:center;
+  justify-content:center;
+   
     background-color:var(--pale-blue);
 }
 .card{
@@ -36,6 +37,7 @@ body{
     border-radius:2rem;
     width:650px;
     background-color:var(--white);
+    
 }
 .card-container{
     display:flex;
@@ -167,8 +169,13 @@ body{
       to bottom,
       var(--Light-slate-blue-background),
       var(--Light-royal-blue-background)
+
     );
+  
   }
+
+    
+  
   @media screen and (max-width: 650px) {
     body {
       align-items: flex-start;
